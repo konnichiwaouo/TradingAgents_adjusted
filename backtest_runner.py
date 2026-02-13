@@ -4,7 +4,6 @@ import time
 from datetime import datetime, timedelta
 from pathlib import Path
 from cli.models import AnalystType
-# [重要] 匯入剛剛新增的 parse_signal_from_content
 from cli.main import run_analysis_execution, parse_signal_from_content
 from trade_manager import TradeManager
 
